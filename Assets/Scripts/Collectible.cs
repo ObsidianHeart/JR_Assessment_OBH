@@ -8,7 +8,7 @@ public class Collectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Collectible triggered by Player");
+            
             UIManager uiManager = Object.FindFirstObjectByType<UIManager>();
             if (uiManager != null)
             {

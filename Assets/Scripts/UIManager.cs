@@ -25,7 +25,7 @@ public class UIManager : MonoBehaviour
         score += amount; 
         UpdateScoreText(); 
 
-        if (score >= totalCollectibles) 
+        if (score >= 10 /*totalCollectibles*/) 
         { 
             winText.gameObject.SetActive(true); 
             leftButton.SetActive(false); 
